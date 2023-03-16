@@ -1,0 +1,15 @@
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\VariablesLab\VariablesLab\bin\Debug\net6.0\VariablesLab.exe
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\VariablesLab\VariablesLab\bin\Debug\net6.0\VariablesLab.deps.json
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\VariablesLab\VariablesLab\bin\Debug\net6.0\VariablesLab.runtimeconfig.json
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\VariablesLab\VariablesLab\bin\Debug\net6.0\VariablesLab.dll
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\VariablesLab\VariablesLab\bin\Debug\net6.0\VariablesLab.pdb
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\VariablesLab\VariablesLab\obj\Debug\net6.0\VariablesLab.csproj.AssemblyReference.cache
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\VariablesLab\VariablesLab\obj\Debug\net6.0\VariablesLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\VariablesLab\VariablesLab\obj\Debug\net6.0\VariablesLab.AssemblyInfoInputs.cache
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\VariablesLab\VariablesLab\obj\Debug\net6.0\VariablesLab.AssemblyInfo.cs
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\VariablesLab\VariablesLab\obj\Debug\net6.0\VariablesLab.csproj.CoreCompileInputs.cache
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\VariablesLab\VariablesLab\obj\Debug\net6.0\VariablesLab.dll
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\VariablesLab\VariablesLab\obj\Debug\net6.0\refint\VariablesLab.dll
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\VariablesLab\VariablesLab\obj\Debug\net6.0\VariablesLab.pdb
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\VariablesLab\VariablesLab\obj\Debug\net6.0\VariablesLab.genruntimeconfig.cache
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\VariablesLab\VariablesLab\obj\Debug\net6.0\ref\VariablesLab.dll
