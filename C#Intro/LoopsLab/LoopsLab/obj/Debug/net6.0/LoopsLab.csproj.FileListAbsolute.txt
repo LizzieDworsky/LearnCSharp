@@ -1,0 +1,15 @@
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\LoopsLab\LoopsLab\bin\Debug\net6.0\LoopsLab.exe
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\LoopsLab\LoopsLab\bin\Debug\net6.0\LoopsLab.deps.json
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\LoopsLab\LoopsLab\bin\Debug\net6.0\LoopsLab.runtimeconfig.json
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\LoopsLab\LoopsLab\bin\Debug\net6.0\LoopsLab.dll
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\LoopsLab\LoopsLab\bin\Debug\net6.0\LoopsLab.pdb
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\LoopsLab\LoopsLab\obj\Debug\net6.0\LoopsLab.csproj.AssemblyReference.cache
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\LoopsLab\LoopsLab\obj\Debug\net6.0\LoopsLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\LoopsLab\LoopsLab\obj\Debug\net6.0\LoopsLab.AssemblyInfoInputs.cache
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\LoopsLab\LoopsLab\obj\Debug\net6.0\LoopsLab.AssemblyInfo.cs
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\LoopsLab\LoopsLab\obj\Debug\net6.0\LoopsLab.csproj.CoreCompileInputs.cache
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\LoopsLab\LoopsLab\obj\Debug\net6.0\LoopsLab.dll
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\LoopsLab\LoopsLab\obj\Debug\net6.0\refint\LoopsLab.dll
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\LoopsLab\LoopsLab\obj\Debug\net6.0\LoopsLab.pdb
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\LoopsLab\LoopsLab\obj\Debug\net6.0\LoopsLab.genruntimeconfig.cache
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\LoopsLab\LoopsLab\obj\Debug\net6.0\ref\LoopsLab.dll
