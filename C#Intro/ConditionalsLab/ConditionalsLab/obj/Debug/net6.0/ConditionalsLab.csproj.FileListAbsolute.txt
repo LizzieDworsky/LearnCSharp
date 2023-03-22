@@ -1,0 +1,15 @@
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\ConditionalsLab\ConditionalsLab\bin\Debug\net6.0\ConditionalsLab.exe
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\ConditionalsLab\ConditionalsLab\bin\Debug\net6.0\ConditionalsLab.deps.json
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\ConditionalsLab\ConditionalsLab\bin\Debug\net6.0\ConditionalsLab.runtimeconfig.json
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\ConditionalsLab\ConditionalsLab\bin\Debug\net6.0\ConditionalsLab.dll
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\ConditionalsLab\ConditionalsLab\bin\Debug\net6.0\ConditionalsLab.pdb
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\ConditionalsLab\ConditionalsLab\obj\Debug\net6.0\ConditionalsLab.csproj.AssemblyReference.cache
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\ConditionalsLab\ConditionalsLab\obj\Debug\net6.0\ConditionalsLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\ConditionalsLab\ConditionalsLab\obj\Debug\net6.0\ConditionalsLab.AssemblyInfoInputs.cache
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\ConditionalsLab\ConditionalsLab\obj\Debug\net6.0\ConditionalsLab.AssemblyInfo.cs
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\ConditionalsLab\ConditionalsLab\obj\Debug\net6.0\ConditionalsLab.csproj.CoreCompileInputs.cache
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\ConditionalsLab\ConditionalsLab\obj\Debug\net6.0\ConditionalsLab.dll
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\ConditionalsLab\ConditionalsLab\obj\Debug\net6.0\refint\ConditionalsLab.dll
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\ConditionalsLab\ConditionalsLab\obj\Debug\net6.0\ConditionalsLab.pdb
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\ConditionalsLab\ConditionalsLab\obj\Debug\net6.0\ConditionalsLab.genruntimeconfig.cache
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\C#Intro\ConditionalsLab\ConditionalsLab\obj\Debug\net6.0\ref\ConditionalsLab.dll
