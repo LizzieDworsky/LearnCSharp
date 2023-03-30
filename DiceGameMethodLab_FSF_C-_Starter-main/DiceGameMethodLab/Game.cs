@@ -59,6 +59,24 @@ namespace DiceGameMethodLab
 
             return diceSides;
         }
+        public int ChooseNumberOfPoints()
+        {
+            //This method should prompt the user to enter the number of sides,
+            //capture user input and return it after converting it to an integer.
+            //This method only needs to be called once in RunGame(), but the returned
+            //value should be captured as a variable that will be passed into the
+            //RollDice() method each time it's called.
+            Console.WriteLine("How many points would you like to play to?");
+            string input = Console.ReadLine();
+            int points;
+            while (int.TryParse(input, out points) == false)
+            {
+                Console.WriteLine($"Sorry {input} is not a valid option. Please try again.");
+                input = Console.ReadLine();
+            }
+
+            return points;
+        }
 
 
         public void CompareRolls(int playerOneRoll, int playerTwoRoll)
@@ -67,6 +85,7 @@ namespace DiceGameMethodLab
             //score of whoever's roll is higher
             //For example, if playerOneRoll is 5 and playerTwoRoll is 2,
             //playerOneScore should be increased by 1.
+            Console.WriteLine($"Player One rolled a {playerOneRoll}\nPlayer Two rolled a {playerTwoRoll}");
             if (playerOneRoll == playerTwoRoll)
             {
                 Console.WriteLine("It is a tie!");
@@ -74,26 +93,26 @@ namespace DiceGameMethodLab
             else if (playerOneRoll > playerTwoRoll)
             {
                 playerOneScore += 1;
-                Console.WriteLine($"Player One's score is now {playerOneScore}");
+                Console.WriteLine($"Player One won this round, their score is now {playerOneScore}");
             }
             else
             {
                 playerTwoScore += 1;
-                Console.WriteLine($"Player Two's score is now {playerTwoScore}");
+                Console.WriteLine($"Player Two won this round, their score is now {playerTwoScore}");
             }
 
         }
 
 
-        public void DisplayWinner()
+        public void DisplayWinner(int winningScore)
         {
             //This method should print a message declaring the winner of the game,
             //ie, the first player who reaches a score of 3
-            if (playerOneScore == 3)
+            if (playerOneScore == winningScore)
             {
                 Console.WriteLine("Play One wins!");
             }
-            else if (playerTwoScore == 3)
+            else if (playerTwoScore == winningScore)
             {
                 Console.WriteLine("Player Two wins!");
             }
@@ -114,16 +133,18 @@ namespace DiceGameMethodLab
 
             DisplayWelcome();
             int diceSides = ChooseNumberOfSides();
+            int points = ChooseNumberOfPoints();
 
-            while (playerOneScore < 3 && playerTwoScore < 3)
+            while (playerOneScore < points && playerTwoScore < points)
             {
+                Console.WriteLine();
                 int playerOneRoll = RollDice(diceSides);
                 int playerTwoRoll = RollDice(diceSides);
                 CompareRolls(playerOneRoll, playerTwoRoll);
             }
 
 
-            DisplayWinner();
+            DisplayWinner(points);
 
 
 
