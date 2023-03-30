@@ -67,9 +67,20 @@ namespace DiceGameMethodLab
             //score of whoever's roll is higher
             //For example, if playerOneRoll is 5 and playerTwoRoll is 2,
             //playerOneScore should be increased by 1.
-
-
-
+            if (playerOneRoll == playerTwoRoll)
+            {
+                Console.WriteLine("It is a tie!");
+            }
+            else if (playerOneRoll > playerTwoRoll)
+            {
+                playerOneScore += 1;
+                Console.WriteLine($"Player One's score is now {playerOneScore}");
+            }
+            else
+            {
+                playerTwoScore += 1;
+                Console.WriteLine($"Player Two's score is now {playerTwoScore}");
+            }
 
         }
 
@@ -104,7 +115,9 @@ namespace DiceGameMethodLab
             DisplayWelcome();
 
             int diceSides = ChooseNumberOfSides();
-
+            CompareRolls(5, 4);
+            CompareRolls(5, 4);
+            CompareRolls(5, 4);
             DisplayWinner();
 
 
