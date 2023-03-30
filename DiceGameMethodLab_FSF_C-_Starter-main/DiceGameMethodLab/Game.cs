@@ -113,11 +113,16 @@ namespace DiceGameMethodLab
             //to continue until there is a winner
 
             DisplayWelcome();
-
             int diceSides = ChooseNumberOfSides();
-            CompareRolls(5, 4);
-            CompareRolls(5, 4);
-            CompareRolls(5, 4);
+
+            while (playerOneScore < 3 && playerTwoScore < 3)
+            {
+                int playerOneRoll = RollDice(diceSides);
+                int playerTwoRoll = RollDice(diceSides);
+                CompareRolls(playerOneRoll, playerTwoRoll);
+            }
+
+
             DisplayWinner();
 
 
