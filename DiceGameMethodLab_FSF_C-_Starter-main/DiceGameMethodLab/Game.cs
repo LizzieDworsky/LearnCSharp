@@ -48,9 +48,16 @@ namespace DiceGameMethodLab
             //This method only needs to be called once in RunGame(), but the returned
             //value should be captured as a variable that will be passed into the
             //RollDice() method each time it's called.
+            Console.WriteLine("How many sides will the dice be?");
+            string input = Console.ReadLine();
+            int diceSides;
+            while (int.TryParse(input, out diceSides) == false)
+            {
+                Console.WriteLine($"Sorry {input} is not a valid option. Please try again.");
+                input = Console.ReadLine();
+            }
 
-
-            return 0;
+            return diceSides;
         }
 
 
@@ -71,8 +78,18 @@ namespace DiceGameMethodLab
         {
             //This method should print a message declaring the winner of the game,
             //ie, the first player who reaches a score of 3
-
-
+            if (playerOneScore == 3)
+            {
+                Console.WriteLine("Play One wins!");
+            }
+            else if (playerTwoScore == 3)
+            {
+                Console.WriteLine("Player Two wins!");
+            }
+            else
+            {
+                Console.WriteLine("There seems to have been an error. Please play again.");
+            }
 
         }
 
@@ -84,10 +101,11 @@ namespace DiceGameMethodLab
             //You should incorporate a loop to allow for rounds of play
             //to continue until there is a winner
 
-
             DisplayWelcome();
 
+            int diceSides = ChooseNumberOfSides();
 
+            DisplayWinner();
 
 
 
