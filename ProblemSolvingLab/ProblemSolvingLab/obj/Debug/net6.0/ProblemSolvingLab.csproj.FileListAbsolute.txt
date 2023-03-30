@@ -1,0 +1,15 @@
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\ProblemSolvingLab\ProblemSolvingLab\bin\Debug\net6.0\ProblemSolvingLab.exe
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\ProblemSolvingLab\ProblemSolvingLab\bin\Debug\net6.0\ProblemSolvingLab.deps.json
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\ProblemSolvingLab\ProblemSolvingLab\bin\Debug\net6.0\ProblemSolvingLab.runtimeconfig.json
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\ProblemSolvingLab\ProblemSolvingLab\bin\Debug\net6.0\ProblemSolvingLab.dll
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\ProblemSolvingLab\ProblemSolvingLab\bin\Debug\net6.0\ProblemSolvingLab.pdb
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\ProblemSolvingLab\ProblemSolvingLab\obj\Debug\net6.0\ProblemSolvingLab.csproj.AssemblyReference.cache
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\ProblemSolvingLab\ProblemSolvingLab\obj\Debug\net6.0\ProblemSolvingLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\ProblemSolvingLab\ProblemSolvingLab\obj\Debug\net6.0\ProblemSolvingLab.AssemblyInfoInputs.cache
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\ProblemSolvingLab\ProblemSolvingLab\obj\Debug\net6.0\ProblemSolvingLab.AssemblyInfo.cs
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\ProblemSolvingLab\ProblemSolvingLab\obj\Debug\net6.0\ProblemSolvingLab.csproj.CoreCompileInputs.cache
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\ProblemSolvingLab\ProblemSolvingLab\obj\Debug\net6.0\ProblemSolvingLab.dll
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\ProblemSolvingLab\ProblemSolvingLab\obj\Debug\net6.0\refint\ProblemSolvingLab.dll
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\ProblemSolvingLab\ProblemSolvingLab\obj\Debug\net6.0\ProblemSolvingLab.pdb
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\ProblemSolvingLab\ProblemSolvingLab\obj\Debug\net6.0\ProblemSolvingLab.genruntimeconfig.cache
+C:\Users\Dworsky\Desktop\SoftwareDevelopment\devCodeCamp_employee\C#\ProblemSolvingLab\ProblemSolvingLab\obj\Debug\net6.0\ref\ProblemSolvingLab.dll
