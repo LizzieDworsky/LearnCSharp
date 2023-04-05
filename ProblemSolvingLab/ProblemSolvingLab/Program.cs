@@ -14,14 +14,14 @@
             //    4. use the length to get the starting place
             //    5. step backwards from the end and add to the reversed string variable
 
-            //Console.WriteLine("Please enter a string for reversal:");
-            //string userInputOne = Console.ReadLine();
-            //string reversedString = "";
-            //for(int i = userInputOne.Length - 1; i > -1; i--)
-            //{
-            //    reversedString += userInputOne[i];
-            //}
-            //Console.WriteLine(reversedString);
+            Console.WriteLine("Please enter a string for reversal:");
+            string userInputOne = Console.ReadLine();
+            string reversedString = "";
+            for (int i = userInputOne.Length - 1; i > -1; i--)
+            {
+                reversedString += userInputOne[i];
+            }
+            Console.WriteLine(reversedString);
 
 
             //Task 2: Capitalize Last Letter
@@ -32,22 +32,21 @@
             //    4. use the length to capitalize the final index letter
             //    5. use any spaces to capitalize the last letter of the words
 
-            //Console.WriteLine("Please enter a string for capitolizatioN:");
-            //string userInputTwo = Console.ReadLine();
-            //string capitolLastLetter = "";
-            //for (int i = 0; i < userInputTwo.Length; i++)
-            //{
-            //    if (i == userInputTwo.Length - 1 || Char.IsWhiteSpace(userInputTwo, i + 1) || userInputTwo[i+1] == ' ')
-            //    {
-            //        capitolLastLetter += char.ToUpper(userInputTwo[i]);
-            //    }
-            //    else
-            //    {
-            //        capitolLastLetter += userInputTwo[i];
-            //    }
-            //}
-            //Console.WriteLine(capitolLastLetter);
-
+            Console.WriteLine("Please enter a string for capitolizatioN:");
+            string userInputTwo = Console.ReadLine();
+            string capitolLastLetter = "";
+            for (int i = 0; i < userInputTwo.Length; i++)
+            {
+                if (i == userInputTwo.Length - 1 || Char.IsWhiteSpace(userInputTwo, i + 1) || userInputTwo[i + 1] == ' ')
+                {
+                    capitolLastLetter += char.ToUpper(userInputTwo[i]);
+                }
+                else
+                {
+                    capitolLastLetter += userInputTwo[i];
+                }
+            }
+            Console.WriteLine(capitolLastLetter);
 
 
             //Task 3: Palindrome
@@ -74,8 +73,6 @@
             }
 
 
-
-
             //Task 4: Compress a string of characters
             //    Algorithm:
             //    1. create string for compression
@@ -89,6 +86,25 @@
             //    9. if they don't reset counter and change variable for comparison to that character
             //    after adding the counter and current character to the compression string
 
+            string compressionString = "aaabbbbbccccaacccbbbaaabbbaaa";
+            string compressedString = "";
+            char currentCharacter = compressionString[0];
+            int counter = 0;
+            for (int i = 0; i < compressionString.Length; i++)
+            {
+                if (currentCharacter == compressionString[i])
+                {
+                    counter += 1;
+                }
+                else
+                {
+                    compressedString += $"{counter}{currentCharacter}";
+                    counter = 1;
+                    currentCharacter = compressionString[i];
+                }
+            }
+            compressedString += $"{counter}{currentCharacter}";
+            Console.WriteLine(compressedString);
 
         }
     }
