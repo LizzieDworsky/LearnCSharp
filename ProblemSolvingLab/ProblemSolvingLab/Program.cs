@@ -14,14 +14,14 @@
             //    4. use the length to get the starting place
             //    5. step backwards from the end and add to the reversed string variable
 
-            Console.WriteLine("Please enter a string for reversal:");
-            string userInput = Console.ReadLine();
-            string reversedString = "";
-            for(int i = userInput.Length - 1; i > -1; i--)
-            {
-                reversedString += userInput[i];
-            }
-            Console.WriteLine(reversedString);
+            //Console.WriteLine("Please enter a string for reversal:");
+            //string userInputOne = Console.ReadLine();
+            //string reversedString = "";
+            //for(int i = userInputOne.Length - 1; i > -1; i--)
+            //{
+            //    reversedString += userInputOne[i];
+            //}
+            //Console.WriteLine(reversedString);
 
 
             //Task 2: Capitalize Last Letter
@@ -32,9 +32,21 @@
             //    4. use the length to capitalize the final index letter
             //    5. use any spaces to capitalize the last letter of the words
 
-
-
-
+            Console.WriteLine("Please enter a string for capitolizatioN:");
+            string userInputTwo = Console.ReadLine();
+            string capitolLastLetter = "";
+            for (int i = 0; i < userInputTwo.Length; i++)
+            {
+                if (i == userInputTwo.Length - 1 || Char.IsWhiteSpace(userInputTwo, i + 1) || userInputTwo[i+1] == ' ')
+                {
+                    capitolLastLetter += char.ToUpper(userInputTwo[i]);
+                }
+                else
+                {
+                    capitolLastLetter += userInputTwo[i];
+                }
+            }
+            Console.WriteLine(capitolLastLetter);
 
 
 
@@ -45,7 +57,9 @@
             //    3. compare the two strings, original and reversed
             //    4. if equal, palindrome ✅ otherwise ❎
 
-
+            //Console.WriteLine("Enter a string to see if it a Palindrome:");
+            //string userInputThree = Console.ReadLine();
+            //string reversedInputThree = "";
 
 
 
