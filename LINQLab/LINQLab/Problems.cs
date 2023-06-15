@@ -28,7 +28,7 @@ namespace LINQLab
 
             //// <><><><><><><><> R Actions (Read) with Foreign Keys <><><><><><><><><>
             //RDemoThree();
-            RProblemSix();
+            //RProblemSix();
             RProblemSeven();
             RProblemEight();
 
@@ -158,8 +158,8 @@ namespace LINQLab
             // HINT: End of query will be: .Select(sc => sc.Product.Price).Sum();
             // Print the total of the shopping cart to the console.
             // Remember to break the problem down and take it one step at a time!
-
-
+            var odaProductsTotal = _context.Shoppingcarts.Include(sc => sc.Product).Include(sc => sc.User).Where(sc => sc.User.Email == "oda@gmail.com").Select(sc => sc.Product.Price).Sum(); // .Sum(sc => sc.Product.Price)
+            Console.WriteLine(odaProductsTotal);
         }
 
         public void RProblemEight()
