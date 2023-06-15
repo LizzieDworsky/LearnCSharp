@@ -24,13 +24,13 @@ namespace LINQLab
             //RProblemTwo();
             //RProblemThree();
             //RProblemFour();
-            RProblemFive();
+            //RProblemFive();
 
             //// <><><><><><><><> R Actions (Read) with Foreign Keys <><><><><><><><><>
             //RDemoThree();
-            //RProblemSix();
-            //RProblemSeven();
-            //RProblemEight();
+            RProblemSix();
+            RProblemSeven();
+            RProblemEight();
 
             //// <><><><><><><><> CUD (Create, Update, Delete) Actions <><><><><><><><><>
 
@@ -145,8 +145,11 @@ namespace LINQLab
         {
             // Write a LINQ query that retrieves all of the products in the shopping cart of the user who has the email "afton@gmail.com".
             // Then print the product's name, price, and quantity to the console.
-
-
+            var aftonsProducts = _context.Shoppingcarts.Include(sc => sc.Product).Include(sc => sc.User).Where(sc => sc.User.Email == "afton@gmail.com");
+            foreach (var items in aftonsProducts)
+            {
+                Console.WriteLine(items.Product.Name);
+            }
         }
 
         public void RProblemSeven()
