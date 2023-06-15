@@ -21,7 +21,7 @@ namespace LINQLab
             RDemoOne();
             RProblemOne();
             RDemoTwo();
-            //RProblemTwo();
+            RProblemTwo();
             //RProblemThree();
             //RProblemFour();
             //RProblemFive();
@@ -87,7 +87,12 @@ namespace LINQLab
         {
             // Write a LINQ query that gets each product whose price is less than or equal to $100.
             // Print the name and price of all products
-
+            var productsUnder100 = _context.Products.Where(p => p.Price <= 100);
+            Console.WriteLine("Products less than $100:");
+            foreach (Product product in productsUnder100)
+            {
+                Console.WriteLine("{0} - {1}", product.Name, product.Price);
+            }
         }
 
         public void RProblemThree()
