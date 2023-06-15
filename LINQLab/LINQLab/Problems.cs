@@ -18,13 +18,13 @@ namespace LINQLab
         public void RunLINQQueries()
         {
             //// <><><><><><><><> R Actions (Read) <><><><><><><><><>
-            RDemoOne();
-            RProblemOne();
-            RDemoTwo();
-            RProblemTwo();
-            //RProblemThree();
-            //RProblemFour();
-            //RProblemFive();
+            //RDemoOne();
+            //RProblemOne();
+            //RDemoTwo();
+            //RProblemTwo();
+            RProblemThree();
+            RProblemFour();
+            RProblemFive();
 
             //// <><><><><><><><> R Actions (Read) with Foreign Keys <><><><><><><><><>
             //RDemoThree();
@@ -98,6 +98,12 @@ namespace LINQLab
         public void RProblemThree()
         {
             // Write a LINQ query that gets each product whose name that CONTAINS an "s".
+            var products = _context.Products.Where(p => p.Name.Contains("s"));
+            Console.WriteLine("Products whose name contains an 's':");
+            foreach (var product in products)
+            {
+                Console.WriteLine(product.Name);
+            }
         }
 
         public void RProblemFour()
