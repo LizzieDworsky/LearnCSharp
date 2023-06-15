@@ -22,7 +22,7 @@ namespace LINQLab
             //RProblemOne();
             //RDemoTwo();
             //RProblemTwo();
-            RProblemThree();
+            //RProblemThree();
             RProblemFour();
             RProblemFive();
 
@@ -98,9 +98,9 @@ namespace LINQLab
         public void RProblemThree()
         {
             // Write a LINQ query that gets each product whose name that CONTAINS an "s".
-            var products = _context.Products.Where(p => p.Name.Contains("s"));
+            var productsWithS = _context.Products.Where(p => p.Name.Contains("s"));
             Console.WriteLine("Products whose name contains an 's':");
-            foreach (var product in products)
+            foreach (Product product in productsWithS)
             {
                 Console.WriteLine(product.Name);
             }
@@ -110,7 +110,11 @@ namespace LINQLab
         {
             // Write a LINQ query that gets all the users who registered BEFORE 2016.
             // Then print each user's email and registration date to the console.
-
+            var longTimeUsers = _context.Users.Where(u => u.RegistrationDate < new DateTime(2016,1,1));
+            foreach (User user in longTimeUsers)
+            {
+                Console.WriteLine("Email: {0}\nRegistration Date: {1}", user.Email, user.RegistrationDate);
+            }
         }
 
         public void RProblemFive()
