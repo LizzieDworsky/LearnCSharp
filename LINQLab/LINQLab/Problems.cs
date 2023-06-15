@@ -166,7 +166,12 @@ namespace LINQLab
         {
             // Write a query that retrieves all of the products in the shopping cart of users who have the role of "Employee".
             // Then print the product's name, price, and quantity to the console along with the email of the user that has it in their cart.
-
+            var employeeProducts = _context.Shoppingcarts.Include(sc => sc.Product).Include(sc => sc.User)
+                .Where(sc => _context.Userroles.Any(ur => ur.User == ur.User && ur.Role.RoleName == "Employee"));
+            foreach (var item in employeeProducts)
+            {
+                Console.WriteLine("User:{3}\nProduct:\nName: {0} Price: {1} Quantity: {2}", item.Product.Name, item.Product.Price, item.Quantity, item.User.Email);
+            }
         }
 
 
