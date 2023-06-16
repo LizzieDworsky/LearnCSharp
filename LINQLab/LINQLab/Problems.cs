@@ -37,8 +37,8 @@ namespace LINQLab
             //// <><> C Actions (Create) <><>
             //CDemoOne();
             //CProblemOne();
-            CDemoTwo();
-            CProblemTwo();
+            //CDemoTwo();
+            //CProblemTwo();
 
             //// <><> U Actions (Update) <><>
             //UDemoOne();
@@ -229,8 +229,16 @@ namespace LINQLab
         {
             // Create a new ShoppingCartItem to represent the new product you created in CProblemOne being added to the shopping cart of the user created in CDemoOne.
             // This will add a new row to ShoppingCart junction table.
-
-
+            var userId = _context.Users.Where(u => u.Email == "david@gmail.com").Select(u => u.Id).SingleOrDefault();
+            var productId = _context.Products.Where(p => p.Name == "Valve Steam Deck").Select(p => p.Id).SingleOrDefault();
+            Shoppingcart newShoppingCart = new Shoppingcart()
+            {
+                UserId = userId,
+                ProductId = productId,
+                Quantity = 1
+            };
+            _context.Shoppingcarts.Add(newShoppingCart);
+            _context.SaveChanges();
         }
 
 
