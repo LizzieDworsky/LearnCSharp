@@ -43,12 +43,12 @@ namespace LINQLab
             //// <><> U Actions (Update) <><>
             //UDemoOne();
             //UProblemOne();
-            UProblemTwo();
+            //UProblemTwo();
 
             //// <><> D Actions (Delete) <><>
             //DDemoOne();
             //DProblemOne();
-            //DProblemTwo();
+            DProblemTwo();
         }
 
         // <><><><><><><><> R Actions (Read) <><><><><><><><><>
@@ -298,6 +298,12 @@ namespace LINQLab
         {
             // Delete all of the product relationships to the user with the email "oda@gmail.com" in the ShoppingCart table using LINQ.
             // HINT: Use a Loop
+            var shoppingcart = _context.Shoppingcarts.Where(sc => sc.User.Email == "oda@gmail.com").ToList();
+            foreach (var item in shoppingcart)
+            {
+                _context.Shoppingcarts.Remove(item);
+                _context.SaveChanges();
+            }
 
         }
 
