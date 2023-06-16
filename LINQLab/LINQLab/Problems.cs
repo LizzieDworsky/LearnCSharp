@@ -49,6 +49,9 @@ namespace LINQLab
             //DDemoOne();
             //DProblemOne();
             //DProblemTwo();
+
+            //// <><> Bonus Actions <><>
+            BonusOne();
         }
 
         // <><><><><><><><> R Actions (Read) <><><><><><><><><>
@@ -326,7 +329,15 @@ namespace LINQLab
             string userEmail = Console.ReadLine();
             Console.WriteLine("Enter Password: ");
             string userPassword = Console.ReadLine();
-
+            var user = _context.Users.Where(u => u.Email == userEmail && u.Password == userPassword).SingleOrDefault();
+            if (user != null)
+            {
+                Console.WriteLine("Signed In!");
+            }
+            else
+            {
+                Console.WriteLine("Invalid Email or Password.");
+            }
         }
 
         private void BonusTwo()
