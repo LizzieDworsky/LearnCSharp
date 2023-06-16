@@ -48,7 +48,7 @@ namespace LINQLab
             //// <><> D Actions (Delete) <><>
             //DDemoOne();
             //DProblemOne();
-            DProblemTwo();
+            //DProblemTwo();
         }
 
         // <><><><><><><><> R Actions (Read) <><><><><><><><><>
@@ -310,9 +310,9 @@ namespace LINQLab
         private void DProblemTwo()
         {
             // Delete the user with the email "oda@gmail.com" from the Users table using LINQ.
-
-
-
+            var user = _context.Users.Where(u => u.Email == "oda@gmail.com").SingleOrDefault();
+            _context.Users.Remove(user);
+            _context.SaveChanges();
         }
 
         // <><><><><><><><> BONUS PROBLEMS <><><><><><><><><>
@@ -322,8 +322,10 @@ namespace LINQLab
             // Prompt the user to enter in an email and password through the console.
             // Take the email and password and check if the there is a person that matches that combination.
             // Print "Signed In!" to the console if they exists and the values match otherwise print "Invalid Email or Password.".
-
             Console.WriteLine("Enter Email: ");
+            string userEmail = Console.ReadLine();
+            Console.WriteLine("Enter Password: ");
+            string userPassword = Console.ReadLine();
 
         }
 
