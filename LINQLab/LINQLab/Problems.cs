@@ -268,7 +268,18 @@ namespace LINQLab
             // Change the role of the user we created to "Employee"
             // HINT: You need to delete the existing role relationship and then create a new Userrole object and add it to the Userroles table
             // See the DDemoOne below as an example of removing a role relationship
-
+            var userRole = _context.Userroles.Where(ur => ur.User.Email == "dan@gmail.com").SingleOrDefault();
+            _context.Userroles.Remove(userRole);
+            _context.SaveChanges();
+            var roleId = _context.Roles.Where(r => r.RoleName == "Employee").Select(r => r.Id).SingleOrDefault();
+            var userId = _context.Users.Where(u => u.Email == "dan@gmail.com").Select(u => u.Id).SingleOrDefault();
+            Userrole newUserrole = new Userrole()
+            {
+                UserId = userId,
+                RoleId = roleId
+            };
+            _context.Userroles.Add(newUserrole);
+            _context.SaveChanges();
         }
 
         // <><> D Actions (Delete) <><>
